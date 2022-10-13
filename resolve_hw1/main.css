@@ -1,0 +1,18 @@
+body {
+    text-align: center;
+}
+.text {
+    color: cornflowerblue;
+    text-align: center;
+    font-family: "Roboto Lightoboto", sans-serif;
+}
+a {
+    text-decoration: none;
+    background: cornflowerblue;
+}
+h2 {
+    text-align: center;
+}
+img {
+    width: 250px;
+}

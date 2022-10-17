@@ -1,0 +1,68 @@
+.container {
+    background: #35ca9e;
+
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.card {
+    width: 350px;
+    height: 550px;
+    background: #162029;
+}
+
+
+.fa-quote-right {
+    font-size: 60px;
+    color: #35ca9e;
+}
+
+.quotes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+
+.description {
+    color: #ffffff;
+    box-sizing: border-box;
+    padding: 30px;
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+}
+
+
+.image-text-block {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.image-desc {
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+    color: #35ca9e;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.somewtf-description {
+    height: 100px;
+    background: silver;
+    width: 100%;
+}

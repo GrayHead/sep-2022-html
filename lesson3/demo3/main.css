@@ -1,0 +1,59 @@
+.bg-base {
+    background: silver;
+}
+
+.radius-base {
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+
+.h-200 {
+    height: 200px;
+}
+
+.w-200 {
+    width: 200px;
+}
+
+
+.w-350 {
+    width: 350px;
+}
+
+.h-300 {
+    height: 300px;
+}
+
+.w-500 {
+    width: 500px;
+}
+
+.round {
+    border-radius: 50%;
+}
+
+.m-10 {
+    margin: 10px;
+}
+
+.m-25 {
+    margin: 25px;
+}
+
+
+.btn-block {
+    width: 400px;
+    height: 200px;
+    background: silver;
+}
+
+.btn-block_btn {
+    width: 100px;
+    height: 30px;
+}
+
+.btn__color_red {
+    color: red;
+}
+

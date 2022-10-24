@@ -1,0 +1,56 @@
+.target {
+    width: 200px;
+    height: 200px;
+    background: silver;
+    /*transition: 1000ms;*/
+
+    animation-name: xxx;
+    animation-duration: 2000ms;
+    animation-iteration-count: infinite;
+    /*animation-delay: 3000ms;*/
+    /*animation-play-state: paused;*/
+    animation-play-state: running;
+
+}
+
+.target:hover {
+    animation-play-state: running;
+}
+
+@keyframes xxx {
+    0% {
+        /*width: 200px;*/
+        transform: rotate(0);
+
+    }
+    10% {
+        transform: rotate(30deg);
+    }
+    20% {
+        transform: rotate(-30deg);
+    }
+    30% {
+        transform: rotate(30deg);
+    }
+    40% {
+        transform: rotate(-30deg);
+    }
+
+    50% {
+        /*width: 400px;*/
+        transform: rotate(30deg);
+    }
+
+
+    100% {
+        transform: rotate(0);
+        /*width: 200px;*/
+    }
+}
+
+/*.target:hover {*/
+/*    width: 100%;*/
+/*    !*background: #333333;*!*/
+/*    !*transition: 300ms;*!*/
+/*}*/
+

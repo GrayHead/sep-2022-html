@@ -1,0 +1,60 @@
+.target {
+    height: 134px;
+    width: 80px;
+    border: 1px solid black;
+
+    background-image: url("img.png");
+    background-position: 0 0;
+
+    animation-name: run;
+    animation-duration: 1000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes run {
+    0% {
+        background-position: 0 0;
+    }
+    15.999% {
+        background-position: 0 0;
+    }
+
+    16% {
+        background-position: -80px 0;
+    }
+    31.9999% {
+        background-position: -80px 0;
+
+    }
+    32% {
+        background-position: -160px 0;
+
+    }
+    47.9999% {
+        background-position: -160px 0;
+
+    }
+    48% {
+        background-position: -240px 0;
+
+    }
+    63.999% {
+        background-position: -240px 0;
+
+    }
+    64% {
+        background-position: -320px 0;
+
+    }
+    99.999% {
+        background-position: -320px 0;
+
+    }
+
+    100% {
+        background-position: -400px 0;
+
+    }
+
+}

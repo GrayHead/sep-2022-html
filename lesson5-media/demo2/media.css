@@ -1,0 +1,13 @@
+@media screen and (min-width: 0) and (max-width: 976px) {
+    .card {
+        flex-direction: column;
+    }
+
+    .card > p {
+        border-left: none;
+        border-top: 2px solid cornflowerblue;
+        padding-left: 0;
+        padding-top: 30px;
+    }
+
+}

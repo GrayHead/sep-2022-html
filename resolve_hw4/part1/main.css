@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 600px;
+    height: 800px;
+    background: blue;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.block_A {
+    width: 100%;
+    height: 40%;
+    background: chocolate;
+}
+
+.block_B {
+    width: 70%;
+    height: 60%;
+    background: cornflowerblue;
+}
+.block_C{
+    width: 30%;
+    height: 60%;
+    background: blueviolet;
+}
